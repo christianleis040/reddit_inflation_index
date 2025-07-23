@@ -1,0 +1,5 @@
+praw==7.7.1
+pandas
+requests
+orjson
+zstandard
