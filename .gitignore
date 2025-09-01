@@ -8,5 +8,5 @@ models/**
 dumps/**
 !dumps/.gitkeep
 
-
+data/output/**
 data/raw/**
