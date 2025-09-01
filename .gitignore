@@ -1,9 +1,11 @@
-reddit_cpi/
+reddit_cpi/**
 
 *.ipynb_checkpoints/
 .DS_Store
 
 models/**
+
+!dumps/.gitkeep
 
 dumps/**
 
