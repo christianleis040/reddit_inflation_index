@@ -5,20 +5,8 @@ reddit_cpi/**
 
 models/**
 
-
 dumps/**
 !dumps/.gitkeep
 
 
-data/**
-
-!data/raw/.gitkeep
-!data/eval/.gitkeep
-
-!data/analytics/**
-!data/inflation/**
-!data/output/model_1_vader/full_set/*.csv
-!data/output/model_2_bert/full_set/*.csv
-!data/output/model_2_bert/live_set/*.csv
-!data/output/model_3_bert/full_set/*.csv
-!data/live_set/**
+data/raw/**
