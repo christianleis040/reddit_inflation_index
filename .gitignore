@@ -5,9 +5,10 @@ reddit_cpi/**
 
 models/**
 
-!dumps/.gitkeep
 
 dumps/**
+!dumps/.gitkeep
+
 
 data/**
 
