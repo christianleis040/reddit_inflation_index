@@ -1,0 +1,16 @@
+{
+  "limit": 10000,
+  "min_score": 1,
+  "min_comments": 0,
+  "keywords": [
+    "prices", "expensive", "too expensive", "went up", "cost", "costs", "more expensive",
+    "inflation", "price increase", "groceries", "grocery", "shopping", "bills", "budget",
+    "rent", "housing", "landlord", "utilities", "electricity", "gas bill", "heating", "water bill",
+    "food", "eggs", "milk", "bread", "meat", "vegetables", "fruit", "toilet paper",
+    "gas", "gasoline", "fuel",
+    "afford",
+    "broke", "struggling", "unaffordable", "cheaper", "saving money", "cutting back", "walmart",
+    "povertyfinance", "personalfinance", "frugal", "budgeting", "cost of living",
+    "price hike", "price gouging", "consumer prices", "inflation rate", "economic hardship"
+  ]
+}
