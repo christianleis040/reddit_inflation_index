@@ -4,8 +4,10 @@ reddit_cpi/**
 .DS_Store
 
 models/**
-!models/model_2/.gitkeep
-!models/model_3/.gitkeep
+!models/model_2/food_model/.gitkeep
+!models/model_2/povertyfinance_model/.gitkeep
+!models/model_3/food/.gitkeep
+!models/model_3/povertyfinance/.gitkeep
 
 dumps/**
 !dumps/.gitkeep
