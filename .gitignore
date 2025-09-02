@@ -3,11 +3,8 @@ reddit_cpi/**
 *.ipynb_checkpoints/
 .DS_Store
 
-models/**
-!models/model_2/food_model/.gitkeep
-!models/model_2/povertyfinance_model/.gitkeep
-!models/model_3/food/.gitkeep
-!models/model_3/povertyfinance/.gitkeep
+models/**/*
+!models/**/.gitkeep
 
 dumps/**
 !dumps/.gitkeep
