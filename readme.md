@@ -232,7 +232,6 @@ http://localhost:8501/
 The dashboard visualizes sentiment trends over time for selected subreddits and overlays them with official U.S. inflation data (CPI).
 
 ## 3. Project Structure
-## 3. Project Structure
 
 ```text
 .
@@ -313,8 +312,7 @@ This project evaluates three modeling approaches for constructing a Reddit-based
 The combination of:
 - **Subreddit**: *r/povertyfinance*
 - **Model**: BERT (Model 2, score supervision)
-- **Aggregation**: Semiannual
 
-showed the highest predictive power, with **r = 0.97** and minimal error. This configuration was also used in the live dashboard.
+showed the highest predictive power, with **r = 0.97** (Semianual) and minimal error. This configuration was also used in the live dashboard.
 
 > For full evaluation details, visualizations, and error metrics, refer to the [project report](./projekt_report_020925.pdf).
