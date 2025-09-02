@@ -4,9 +4,14 @@ reddit_cpi/**
 .DS_Store
 
 models/**
+!models/model_2/.gitkeep
+!models/model_3/.gitkeep
+
 
 dumps/**
 !dumps/.gitkeep
 
 data/raw/**
 !data/raw/.gitkeep
+
+
