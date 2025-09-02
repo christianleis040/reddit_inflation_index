@@ -9,4 +9,4 @@ dumps/**
 !dumps/.gitkeep
 
 data/raw/**
-!data/raw/gitkeep
+!data/raw/.gitkeep
