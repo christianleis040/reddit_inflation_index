@@ -1,5 +1,3 @@
-
-
 ## 1. Introduction
 This project constructs a **Reddit-based Inflation Index** using public Reddit discussions and machine learning models. The goal is to analyze how user-generated content on subreddits like *r/food* and *r/povertyfinance* reflects and anticipates inflation trends in the United States.
 
@@ -9,7 +7,7 @@ To achieve this, the pipeline implements **three modeling approaches**:
 - **Model 2**: A weakly supervised BERT classifier, trained using Reddit post scores as proxy labels for sentiment.
 - **Model 3**: A regression model that directly predicts monthly CPI values based on Reddit content, using fine-tuned BERT and VADER as features.
 
-A **live dashboard** built with Streamlit provides an interactive and continuously updated view of sentiment and inflation indicators extracted from Reddit. Historical analysis and model outputs are available for reproduction and extension.
+A **live dashboard** built with Streamlit provides an interactive and continuously updated view of sentiment and inflation indicators extracted from Reddit. Historical analysis and model outputs are available for reproduction and extension. For viewing the current state of the dashboard with existing data on GitHub (without the update function), access the following link: https://reddit-inflation-index.streamlit.app
 
 ## 2. Technical Setup
 

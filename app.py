@@ -20,6 +20,16 @@ st.markdown("""
 This dashboard visualizes normalized sentiment trends from Reddit subreddits related to consumer prices.
 """)
 
+
+
+# ---- NOTICE BAR ---- # (Added notice for current state without update function)
+st.warning("""
+**Important Notice**: This dashboard reflects the current state of data from the GitHub repository and does not include the update function. 
+For the full update functionality (e.g., fetching new Reddit posts and running predictions), please follow the instructions in the GitHub README: 
+[https://github.com/christianleis040/reddit_inflation_index/](https://github.com/christianleis040/reddit_inflation_index/).
+""")
+
+
 # ---- SIDEBAR ---- #
 with st.sidebar:
     selected_subreddits = st.multiselect("Select subreddits", DEFAULT_SUBREDDITS, default=DEFAULT_SUBREDDITS)
@@ -48,7 +58,7 @@ with st.sidebar:
     - Current API limits up to **1000 posts** per call.
     -  **Reddit days are aligned with UTC time**, which may differ from your local time zone.
 
-    <a href="https://github.com/christianleis040/reddit_inflation_index_2/" target="_blank">
+    <a href="https://github.com/christianleis040/reddit_inflation_index/" target="_blank">
     GitHub Repository: Technical details, full report, and experiments
     </a>
 """, unsafe_allow_html=True)
