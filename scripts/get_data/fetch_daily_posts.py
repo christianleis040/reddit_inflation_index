@@ -54,7 +54,7 @@ def fetch_and_save_today():
             os.makedirs(output_dir, exist_ok=True)
             output_path = os.path.join(output_dir, f"{date_str}.jsonl")
 
-            N_DAYS_OVERWRITE = 3  # Number of days to overwrite
+            N_DAYS_OVERWRITE = 14  # Number of days to overwrite
             overwrite_cutoff = date.today() - timedelta(days=N_DAYS_OVERWRITE)
 
             if os.path.exists(output_path) and datetime.strptime(date_str, "%Y-%m-%d").date() < overwrite_cutoff:
